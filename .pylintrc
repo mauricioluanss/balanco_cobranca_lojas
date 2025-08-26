@@ -1,0 +1,36 @@
+[MASTER]
+ignore=venv,.venv,__pycache__,.pytest_cache,.vscode,.idea
+
+[MESSAGES CONTROL]
+disable=
+    C0114,
+    R0903
+
+[FORMAT]
+max-line-length=100
+indent-string='    '
+
+[VARIABLES]
+dummy-variables-rgx=_+$|dummy*
+good-names=i,j,k,ex,fp
+
+[SIMILARITIES]
+min-similarity-lines=4
+ignore-docstrings=yes
+
+[DESIGN]
+max-args=5
+max-locals=15
+max-returns=6
+max-branches=12
+max-statements=50
+max-parents=7
+max-attributes=7
+min-public-methods=0
+
+[EXCEPTIONS]
+overgeneral-exceptions=Exception
+
+[REPORTS]
+output-format=colorized
+reports=no
