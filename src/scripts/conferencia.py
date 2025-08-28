@@ -1,6 +1,6 @@
 import pandas as pd
 
-from caminhos import ARQ_SPA, DIR_OUTPUT
+from src.config import ARQ_SPA, DIR_OUTPUT
 
 
 def faz_conferencia_com_spa():

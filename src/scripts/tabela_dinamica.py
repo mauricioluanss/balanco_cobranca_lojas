@@ -1,6 +1,6 @@
 import pandas as pd
 
-from caminhos import COLUNAS_TIPOS, DIR_OUTPUT
+from src.config import COLUNAS_TIPOS, DIR_OUTPUT
 
 
 def cria_tabela_dinamica():
